@@ -1,0 +1,54 @@
+body{
+  scroll-behavior:smooth;
+  margin:0;
+  padding:5px;
+}
+#head{
+background:red;
+        text-align:center;
+        font-size:35px;
+        font-family:Monospace;
+        color:white;
+      }
+      input[type="text"]{
+        outline-color:blue;
+        width:80%;
+        height:30px;
+        color:red;
+        outline-width:2px;
+        padding:1px;
+        font-size:20px;
+        border-color:red;
+        font-family:Consolas;
+      }
+      #searchbtn{
+        font-size:25px;
+        color:purple;
+        border-width:1px;
+        background-color:white;
+        border:none;
+        outline:none;
+      }
+      #speakbtn{
+        display: none;
+        font-size:30px;
+        color: red;
+        border: none;
+        outline:none;
+        background-color: white;
+        background-color:white;
+        font-family: Georgia;
+      }
+      #text{
+       font-size:30px;
+       font-family: Monospace;
+       color:crimson;
+      }
+      #meaning{
+       font-size:25px;
+       font-family:Segoe UI;
+      }
+      #synonyms, #antonyms{
+       color:green;
+       font-size:20px;
+      }
